@@ -7,6 +7,7 @@ import Definding from "./Definding"
 import Mission from "./Mission";
 import Service from "./Ourservices"
 import Protecting from "./Protecting";
+import Partner from "./Partners";
 import Scertificate from "./Scertificate";
 import Header from "./Nav"
 import Essentials from './Essentials';
@@ -25,6 +26,7 @@ function Home() {
     <Service/>
     <Protecting/>
     <Essentials/>
+    <Partner/>
     <Scertificate/>
     <Discover/>
     <Footer/>
