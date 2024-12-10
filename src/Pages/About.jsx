@@ -51,18 +51,9 @@ const CyberSecuritySection = () => {
           {/* Footer Section */}
           <div className="flex grid-cols-2 items-center gap-5 md:text-base text-xs">
             <button className="bg-[#136690] text-[#C3CDD3] md:px-6 px-3 py-3 md:py-3 hover:[#136690]">
-              <a href="./contact">Vulnerability Assessment
+              <a href="./contact">Complimentary Vulnerability Assessment
               </a>
             </button>
-            <div className="text-lg">
-              <span className="font-light md:text-base text-sm">Call us:</span>{" "}
-              <a
-                href="tel:(+46) 73 894 68 97"
-                className="text-[#136690] underline hover:text-[#136690] md:text-base text-sm"
-              >
-                +31 63 525 0709
-              </a>
-            </div>
           </div>
         </div>
       </div>
