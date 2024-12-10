@@ -5,7 +5,7 @@ const Footer = () => {
         <div className='bg-[#111316]'>
             <div className='max-w-screen-xl mx-auto justify-center md:pt-20 md:pb-10 md:px-10 py-10'>
                 <h1 className='text-[#aaa] md:text-base text-sm justify-center pb-5 px-5 '>
-                    Website last updated: December 12, 2024
+                    Website last updated: December 10, 2024
                 </h1>
                 <div className="py-2 md:px-0 px-2">
                     <a href="/">
