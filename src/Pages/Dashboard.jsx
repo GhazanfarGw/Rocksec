@@ -1,30 +1,16 @@
-import { useState, useEffect } from 'react';
+import React from 'react';
 import Banner from './Banner'
 
 export default function Dashboard() {
-    const [scrollPosition, setScrollPosition] = useState (0);
-
-    useEffect(() => {
-      const handleScroll = () => {
-        setScrollPosition(window.scrollY);
-      };
-  
-      window.addEventListener('scroll', handleScroll);
-  
-      return () => {
-        window.removeEventListener('scroll', handleScroll);
-      };
-  
-    }, []);
-  
-    const zoomFactor = 115 + scrollPosition / 10;
-  
   return (
     <>
-        <div className='duration-500 overflow-hidden justify-center mx-auto' style={{ backgroundSize: `${zoomFactor}%` }}>
-            <video className='w-full object-cover opacity-50 justify-center mx-auto h-[52rem]' loop autoPlay muted>
-                <source src='./cyber security stock footage.mp4' type='video/mp4'/>
+        <div className='duration-500 overflow-hidden justify-center mx-auto'>
+            <video 
+                class="w-full object-cover opacity-50 justify-center mx-auto h-[52rem]" 
+                loop autoPlay muted playsinline>
+                <source src="cyber-security-stock-footage.mp4" type="video/mp4"/>
             </video>
+
             <div className='md:px-10 mx-auto justify-center px-5'>
                 <div className='text-white top-1/4 absolute md:left-0 md:right-0 justify-center pt-5 md:pt-0 md:text-center md:mx-auto'>
                     <div className='md:text-center mx-auto max-w-screen-lg'>
