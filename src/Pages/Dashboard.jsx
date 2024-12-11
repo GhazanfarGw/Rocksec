@@ -28,7 +28,7 @@ export default function Dashboard() {
                         </a>
                     </div>
                 </div>
-                <div className='md:max-w-7xl justify-center mx-auto md:-mt-80 md:px-10 -mt-32 z-20 mb-0 md:mb-20'>
+                <div className='md:max-w-7xl justify-center mx-auto md:-mt-80 md:px-10 mt-5 z-20 mb-0 md:mb-20'>
                         <Banner/>
                     </div>
             </div>
@@ -36,6 +36,7 @@ export default function Dashboard() {
     </>
   )
 }
+
 // import React from 'react';
 // import Banner from './Banner'
 
