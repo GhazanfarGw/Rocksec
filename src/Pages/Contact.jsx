@@ -25,10 +25,10 @@ function Contact () {
         message: message,
     };
     emailjs.send(
-      'service_t0mmzxm',
-      'template_vyr4tbf',
+      'service_vzgul5p',
+      'template_dpkkern',
       templateParams,
-      'a5SikSpJjSDiomd52'
+      'I1EY11UtD0UQtDY2-'
     )
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
